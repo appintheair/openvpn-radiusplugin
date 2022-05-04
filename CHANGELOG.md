@@ -105,5 +105,8 @@ The OpenVPN process needs write permission in the OpenVPN directory.
 - Implement accounting only feature (option: accountingonly, default false)
 - Implement non fatal accounting (failures during accounting let the user still connect) (nonfatalaccounting)
 
-## 2.2:
+## 2.2
+- Fix locks for operations with users waiting for authentication or accounting start
+
+## 2.3:
 - Allow to disable accounting
